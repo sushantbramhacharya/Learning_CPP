@@ -7,4 +7,7 @@ We can use different namespaces type in c++
 - using namespace std;
     - When i have to use namespaces in globally
 - using std::cout
-    - Using cout of std only
+    - Using cout of std onlys
+
+## io stream
+I/O stream will store every input you inter and gives it to CIN
