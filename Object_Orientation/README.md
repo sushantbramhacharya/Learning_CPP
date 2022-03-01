@@ -16,3 +16,8 @@ Classes have:
 - Protected
 - Public
     - Can Acess beyond classes or can access the attibs from objects.
+## Encapsulation
+- No directly modifying data
+- specific public methods are uses as:
+    - Getters
+    - Setters
