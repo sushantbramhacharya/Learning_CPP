@@ -8,9 +8,10 @@ Classes have:
 
 ## Access Modifiers
 - Private
+    - Cannot Acess beyond classes or cannot access the attibs from objects.
 - Protected
 - Public
-
+    - Can Acess beyond classes or can access the attibs from objects.
 
 ## Also See
 
