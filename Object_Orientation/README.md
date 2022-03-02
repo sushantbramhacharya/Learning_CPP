@@ -18,10 +18,15 @@ Classes have:
     - Can Acess beyond classes or can access the attibs from objects.
 ## Nesting of Methods and Private Methods
 - We can use Private Methods by Nesting into Public Method
-    - As shown in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1s_complement_with_objects.cppp)
+    - As shown in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1s_complement_with_objects.cpp)
 - Nesting is the process where we use method inside of methods.
 - Done in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1s_complement_with_objects.cpp)
-## Memory Alloction in Objects
+## Static Variables
+- It will be shared accross classes
+- variable of class
+## Static Methods
+- Can only use static var
+- Can be accessed by Scope Resolution Operator(::)
 ## Encapsulation
 - No directly modifying data
 - specific public methods are uses as:
