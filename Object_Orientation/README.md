@@ -18,9 +18,10 @@ Classes have:
     - Can Acess beyond classes or can access the attibs from objects.
 ## Nesting of Methods and Private Methods
 - We can use Private Methods by Nesting into Public Method
-    - As shown in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1's_complement_with_Object.cpp)
+    - As shown in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1s_complement_with_objects.cppp)
 - Nesting is the process where we use method inside of methods.
-- Done in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1's_complement_with_Object.cpp)
+- Done in [1's_complement_with_Object.cpp](https://github.com/sushantbramhacharya/Learning_CPP/blob/main/Object_Orientation/1s_complement_with_objects.cpp)
+## Memory Alloction in Objects
 ## Encapsulation
 - No directly modifying data
 - specific public methods are uses as:
