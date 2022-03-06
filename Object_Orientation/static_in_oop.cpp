@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 class Employee
 {
     int id;
@@ -11,14 +9,14 @@ class Employee
 public:
     void readData()
     {
-        cout << "Enter the id ??" << endl;
-        cin >> id;
+        std::cout << "Enter the id ??" << std::endl;
+        std::cin >> id;
         count++;
-        cout << "The id is " << id << endl;
+        std::cout << "The id is " << id << std::endl;
     }
     static void printCount()
     {
-        cout << "The Count is " << count << endl;
+        std::cout << "The Count is " << count << std::endl;
     }
 };
 // static variables should be refrenced outside the class

@@ -1,9 +1,8 @@
 #include <iostream>
-using namespace std;
 int main()
 {
-    string name;
-    cout << "What is your Name ??"<<endl;
-    cin >> name;
-    cout << "Hope you have a good day "<<name<<endl;
+    std::string name;
+    std::cout << "What is your Name ??" << std::endl;
+    std::cin >> name;
+    std::cout << "Hope you have a good day " << name << std::endl;
 }

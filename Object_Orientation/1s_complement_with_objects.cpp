@@ -1,12 +1,10 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 class binary
 {
 private:
-    string num;
+    std::string num;
     // Read a binary Number
     void read(void);
     // Check Binary Number
@@ -18,8 +16,8 @@ public:
 };
 void binary::read(void)
 {
-    cout << "Enter a Binary Number?" << endl;
-    cin >> num;
+    std::cout << "Enter a Binary Number?" << std::endl;
+    std::cin >> num;
 }
 void binary::chk_bin(void)
 {
@@ -28,7 +26,7 @@ void binary::chk_bin(void)
         // at function used from string library
         if (num.at(i) != '0' && num.at(i) != '1')
         {
-            cout << "Not Binary !!" << endl;
+            std::cout << "Not Binary !!" << std::endl;
             exit(0);
         }
     }
@@ -49,7 +47,7 @@ void binary::onesComplement(void)
             num.at(i) = '0';
         }
     }
-    cout << "1's Complement is " << num << endl;
+    std::cout << "1's Complement is " << num << std::endl;
 }
 
 int main()
