@@ -1,73 +1,71 @@
 #include <bits/stdc++.h>
 
-using namespace std;
-
-string ltrim(const string &);
-string rtrim(const string &);
+std::string ltrim(const std::string &);
+std::string rtrim(const std::string &);
 
 
 
 int main()
 {
-    string n_temp;
-    getline(cin, n_temp);
+    std::string n_temp;
+    std::getline(std::cin, n_temp);
 
-    int n = stoi(ltrim(rtrim(n_temp)));
+    int n = std::stoi(ltrim(rtrim(n_temp)));
 
     // Write your code here
     if(n<=9)
     {
         if(n==1)
         {
-            cout<<"one";
+            std::cout<<"one";
         }
         else if(n==2)
         {
-            cout<<"two";
+            std::cout<<"two";
         }else if(n==3)
         {
-            cout<<"three";
+            std::cout<<"three";
         }else if(n==4)
         {
-            cout<<"four";
+            std::cout<<"four";
         }else if(n==5)
         {
-            cout<<"five";
+            std::cout<<"five";
         }else if(n==6)
         {
-            cout<<"six";
+            std::cout<<"six";
         }else if(n==7)
         {
-            cout<<"seven";
+            std::cout<<"seven";
         }else if(n==8)
         {
-            cout<<"eight";
+            std::cout<<"eight";
         }else
         {
-            cout<<"nine";
+            std::cout<<"nine";
         }
     }
     else
-        cout<<"Greater than 9";
+        std::cout<<"Greater than 9";
     return 0;
 }
 
-string ltrim(const string &str) {
-    string s(str);
+std::string ltrim(const std::string &str) {
+    std::string s(str);
 
     s.erase(
         s.begin(),
-        find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace)))
+        std::find_if(s.begin(), s.end(), std::not1(std::ptr_fun<int, int>(isspace)))
     );
 
     return s;
 }
 
-string rtrim(const string &str) {
-    string s(str);
+std::string rtrim(const std::string &str) {
+    std::string s(str);
 
     s.erase(
-        find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),
+        std::find_if(s.rbegin(), s.rend(), std::not1(std::ptr_fun<int, int>(isspace))).base(),
         s.end()
     );
 

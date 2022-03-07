@@ -5,48 +5,46 @@
 // Else if n>9 and it is an odd number, then print "odd".
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int a, b;
-    cin >> a >> b;
+    std::cin >> a >> b;
     for (int i = a; i <= b; i++)
     {
         switch (i)
         {
         case 1:
-            cout << "one" << endl;
+            std::cout << "one" << std::endl;
             break;
         case 2:
-            cout << "two" << endl;
+            std::cout << "two" << std::endl;
             break;
         case 3:
-            cout << "three" << endl;
+            std::cout << "three" << std::endl;
             break;
         case 4:
-            cout << "four" << endl;
+            std::cout << "four" << std::endl;
             break;
         case 5:
-            cout << "five" << endl;
+            std::cout << "five" << std::endl;
             break;
         case 6:
-            cout << "six" << endl;
+            std::cout << "six" << std::endl;
             break;
         case 7:
-            cout << "seven" << endl;
+            std::cout << "seven" << std::endl;
             break;
         case 8:
-            cout << "eight" << endl;
+            std::cout << "eight" << std::endl;
             break;
         case 9:
-            cout << "nine" << endl;
+            std::cout << "nine" << std::endl;
             break;
         default:
             if (i % 2 == 0)
-                cout << "even" << endl;
+                std::cout << "even" << std::endl;
             else
-                cout << "odd" << endl;
+                std::cout << "odd" << std::endl;
             break;
         }
     }
