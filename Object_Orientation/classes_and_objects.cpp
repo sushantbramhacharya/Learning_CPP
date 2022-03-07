@@ -16,7 +16,7 @@ public:
         std::cout << "Age - " << Age << std::endl;
     }
     // Constructor
-    Employee(string name, string company, int age)
+    Employee(const string& name, const string& company, const int& age)// to not copy, const to not change the original
     {
         Name = name;
         Company = company;
