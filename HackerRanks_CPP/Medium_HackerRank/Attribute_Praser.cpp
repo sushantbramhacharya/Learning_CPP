@@ -1,4 +1,3 @@
-//Attribute Parser in C++ - Hacker Rank Solution
 #include <cmath>
 #include <cstdio>
 #include <vector>
